@@ -12,6 +12,7 @@
       "3": "HKG"
       "4": "IAD"
       "5": "SYD"
+      "6": "LON"
 
   vars_prompt:
     - name: "rackspace_region"
@@ -22,8 +23,9 @@
           3. Hong Kong
           4. Northern Virginia
           5. Sydney
+          6. London
         Please choose the number of your region. Press enter for default (#3) region.
-      default: "3"
+      default: "4"
       private: no
 
     - name: "rackspace_server_name"
